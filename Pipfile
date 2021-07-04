@@ -8,5 +8,8 @@ flask = "*"
 
 [dev-packages]
 
+[scripts]
+server = "flask run --host 0.0.0.0"
+
 [requires]
 python_version = "3.9"
